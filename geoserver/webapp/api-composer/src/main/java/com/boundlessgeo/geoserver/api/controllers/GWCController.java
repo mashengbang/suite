@@ -41,7 +41,7 @@ public class GWCController extends ApiController {
      */
     @RequestMapping(value = "/gridsets", method = RequestMethod.GET)
     public @ResponseBody JSONArr list(HttpServletRequest request) throws IOException {
-        List<GridSet> gridsets = mediator.getGridSetBroker().getGridSets();
+        List<GridSet> gridsets = (List<GridSet>) mediator.getGridSetBroker().getGridSets();
         
         JSONArr arr = new JSONArr();
         for (GridSet gridset: gridsets) {
