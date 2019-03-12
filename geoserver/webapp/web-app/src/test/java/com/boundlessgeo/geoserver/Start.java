@@ -19,6 +19,11 @@ import org.eclipse.jetty.xml.XmlConfiguration;
  * Starts up Jetty from the development environment.
  */
 public class Start {
+	/*
+	 * masterpw.info
+	 * The generated master password is: auUtS}ZS
+	 * Test the master password by logging in as user "root"
+	 */
     private static final Logger log = org.geotools.util.logging.Logging.getLogger(Start.class.getName());
 
     public static void main(String[] args) {

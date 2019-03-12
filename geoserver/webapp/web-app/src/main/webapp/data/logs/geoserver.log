@@ -1,0 +1,690 @@
+2019-03-12 11:26:47,223 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:26:47,223 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:26:47,237 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:26:47,238 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:26:47,682 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2019-03-12 11:26:47,822 INFO [org.geoserver] - Loaded style 'generic'
+2019-03-12 11:26:47,828 INFO [org.geoserver] - Loaded style 'line'
+2019-03-12 11:26:47,828 INFO [org.geoserver] - Loaded style 'polygon'
+2019-03-12 11:26:47,829 INFO [org.geoserver] - Loaded style 'point'
+2019-03-12 11:26:47,829 INFO [org.geoserver] - Loaded style 'raster'
+2019-03-12 11:26:47,830 INFO [org.geoserver] - Loaded default workspace opengeo
+2019-03-12 11:26:48,327 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2019-03-12 11:26:48,341 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2019-03-12 11:26:48,367 INFO [org.geoserver] - Loaded service 'wms', enabled
+2019-03-12 11:26:48,368 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl--6872b616:1696ff039b0:-7fff', enabled
+2019-03-12 11:26:48,382 INFO [org.geoserver] - Loaded service 'WPSInfoImpl--3c74d82b:15f36f78719:-7ff7', disabled
+2019-03-12 11:26:48,439 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:26:48,492 WARN [config.GeoserverXMLResourceProvider] - Found no configuration file in config directory, will create one at 'gwc/geowebcache.xml' from template jar:file:/D:/apache/m2/org/geowebcache/gwc-core/1.13-SNAPSHOT/gwc-core-1.13-SNAPSHOT.jar!/geowebcache_empty.xml
+2019-03-12 11:26:48,502 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2019-03-12 11:26:48,503 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2019-03-12 11:26:48,530 WARN [config.XMLConfiguration] - ********************************************************************************
+2019-03-12 11:26:48,530 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: 找不到元素 'gwcConfiguration' 的声明。
+2019-03-12 11:26:48,530 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2019-03-12 11:26:48,530 WARN [config.XMLConfiguration] - ********************************************************************************
+2019-03-12 11:26:48,571 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2019-03-12 11:26:48,572 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2019-03-12 11:26:48,604 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2019-03-12 11:26:48,604 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2019-03-12 11:26:48,605 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2019-03-12 11:26:48,626 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2019-03-12 11:26:48,633 ERROR [storage.DefaultStorageFinder] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:26:48,634 INFO [storage.DefaultStorageFinder] - ********************************************************************************************************************
+2019-03-12 11:26:48,634 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\d\AppData\Local\Temp, using it as the default prefix. ***
+2019-03-12 11:26:48,634 INFO [storage.DefaultStorageFinder] - ********************************************************************************************************************
+2019-03-12 11:26:48,847 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2019-03-12 11:26:49,004 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:26:49,016 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:26:49,028 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2019-03-12 11:26:49,041 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2019-03-12 11:26:49,042 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2019-03-12 11:26:49,042 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2019-03-12 11:26:49,046 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2019-03-12 11:26:49,053 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2019-03-12 11:26:49,196 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2019-03-12 11:26:50,909 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:26:50,911 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:26:51,014 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2019-03-12 11:26:51,014 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2019-03-12 11:26:51,100 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2019-03-12 11:26:51,101 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/*] onto handler 'dispatcher'
+2019-03-12 11:26:51,947 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2019-03-12 11:26:51,947 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2019-03-12 11:26:51,948 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2019-03-12 11:26:54,551 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2019-03-12 11:26:54,551 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2019-03-12 11:26:54,614 WARN [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is not available, check the native libs installation
+2019-03-12 11:26:54,677 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2019-03-12 11:26:54,677 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2019-03-12 11:26:55,606 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2019-03-12 11:26:55,606 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2019-03-12 11:26:55,606 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2019-03-12 11:26:55,664 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2019-03-12 11:26:55,691 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2019-03-12 11:26:55,720 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2019-03-12 11:26:55,723 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2019-03-12 11:26:55,849 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2019-03-12 11:26:55,849 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2019-03-12 11:26:57,236 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wps] onto handler 'dispatcher'
+2019-03-12 11:26:57,236 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wps/*] onto handler 'dispatcher'
+2019-03-12 11:26:57,349 INFO [ows.OWSHandlerMapping] - Mapped URL path [/temp/**] onto handler 'filePublisher'
+2019-03-12 11:26:57,394 INFO [geoserver.wps] - Found 6 bindable processes in GeoServer specific processes
+2019-03-12 11:26:57,670 INFO [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+2019-03-12 11:26:57,672 INFO [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+2019-03-12 11:26:57,675 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+2019-03-12 11:26:57,676 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+2019-03-12 11:26:57,676 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+2019-03-12 11:26:57,676 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+2019-03-12 11:26:57,677 INFO [geoserver.wps] - Found 17 bindable processes in Raster processes
+2019-03-12 11:26:57,682 INFO [geoserver.wps] - Found 31 bindable processes in Vector processes
+2019-03-12 11:26:57,688 INFO [geoserver.wps] - Found 48 bindable processes in Geometry processes
+2019-03-12 11:26:57,689 INFO [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+2019-03-12 11:26:58,832 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2019-03-12 11:26:58,832 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2019-03-12 11:26:59,117 INFO [geoserver.security] - Start reloading user/groups for service named default
+2019-03-12 11:26:59,120 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2019-03-12 11:26:59,214 INFO [geoserver.importer] - Enabling import store: memory
+2019-03-12 11:26:59,215 INFO [geoserver.importer] - Enabling import store: memory
+2019-03-12 11:28:03,613 WARN [servlet.PageNotFound] - No mapping found for HTTP request with URI [/geoserver/composer] in DispatcherServlet with name 'dispatcher'
+2019-03-12 11:31:38,020 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:31:38,021 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:31:38,033 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:31:38,034 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:31:38,507 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2019-03-12 11:31:38,660 INFO [org.geoserver] - Loaded style 'line'
+2019-03-12 11:31:38,660 INFO [org.geoserver] - Loaded style 'polygon'
+2019-03-12 11:31:38,661 INFO [org.geoserver] - Loaded style 'generic'
+2019-03-12 11:31:38,661 INFO [org.geoserver] - Loaded style 'point'
+2019-03-12 11:31:38,662 INFO [org.geoserver] - Loaded style 'raster'
+2019-03-12 11:31:38,663 INFO [org.geoserver] - Loaded default workspace opengeo
+2019-03-12 11:31:39,245 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2019-03-12 11:31:39,256 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2019-03-12 11:31:39,272 INFO [org.geoserver] - Loaded service 'wms', enabled
+2019-03-12 11:31:39,273 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-43a11dcf:1696ff4aa1b:-7fff', enabled
+2019-03-12 11:31:39,288 INFO [org.geoserver] - Loaded service 'WPSInfoImpl--3c74d82b:15f36f78719:-7ff7', disabled
+2019-03-12 11:31:39,337 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:31:39,392 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2019-03-12 11:31:39,393 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2019-03-12 11:31:39,393 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2019-03-12 11:31:39,425 WARN [config.XMLConfiguration] - ********************************************************************************
+2019-03-12 11:31:39,425 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: 找不到元素 'gwcConfiguration' 的声明。
+2019-03-12 11:31:39,425 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2019-03-12 11:31:39,425 WARN [config.XMLConfiguration] - ********************************************************************************
+2019-03-12 11:31:39,484 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2019-03-12 11:31:39,485 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2019-03-12 11:31:39,541 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2019-03-12 11:31:39,542 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2019-03-12 11:31:39,542 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2019-03-12 11:31:39,576 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2019-03-12 11:31:39,587 ERROR [storage.DefaultStorageFinder] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:31:39,588 INFO [storage.DefaultStorageFinder] - ********************************************************************************************************************
+2019-03-12 11:31:39,588 INFO [storage.DefaultStorageFinder] - *** Found System environment variable TEMP set to C:\Users\d\AppData\Local\Temp, using it as the default prefix. ***
+2019-03-12 11:31:39,588 INFO [storage.DefaultStorageFinder] - ********************************************************************************************************************
+2019-03-12 11:31:39,714 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2019-03-12 11:31:39,865 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:31:39,876 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data\gwc'.
+2019-03-12 11:31:39,894 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2019-03-12 11:31:39,906 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2019-03-12 11:31:39,908 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2019-03-12 11:31:39,909 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2019-03-12 11:31:39,913 INFO [diskquota.DiskQuotaMonitor] - 0 layers attached to global quota 500.0 MB
+2019-03-12 11:31:39,920 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2019-03-12 11:31:40,087 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2019-03-12 11:31:41,617 WARN [geoserver.platform] - Found Java environment variable GEOSERVER_DATA_DIR set to D:\boundlessgeo\server\geoserver\webapp\web-app\data , but this path does not exist
+2019-03-12 11:31:41,617 INFO [geoserver.platform] - Falling back to embedded data directory: D:\boundlessgeo\server\geoserver\webapp\web-app\src\main\webapp\data
+2019-03-12 11:31:41,686 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+2019-03-12 11:31:41,686 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+2019-03-12 11:31:41,797 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+2019-03-12 11:31:41,797 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/*] onto handler 'dispatcher'
+2019-03-12 11:31:42,823 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+2019-03-12 11:31:42,824 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+2019-03-12 11:31:42,824 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+2019-03-12 11:31:45,405 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+2019-03-12 11:31:45,405 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+2019-03-12 11:31:45,483 WARN [turbojpeg.TurboJPEGMapResponse] - The turbo jpeg encoder is not available, check the native libs installation
+2019-03-12 11:31:45,545 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+2019-03-12 11:31:45,545 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+2019-03-12 11:31:46,892 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+2019-03-12 11:31:46,892 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+2019-03-12 11:31:46,892 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+2019-03-12 11:31:46,974 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+2019-03-12 11:31:46,998 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2019-03-12 11:31:47,023 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2019-03-12 11:31:47,024 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2019-03-12 11:31:47,120 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2019-03-12 11:31:47,120 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2019-03-12 11:31:49,043 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wps] onto handler 'dispatcher'
+2019-03-12 11:31:49,044 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wps/*] onto handler 'dispatcher'
+2019-03-12 11:31:49,234 INFO [ows.OWSHandlerMapping] - Mapped URL path [/temp/**] onto handler 'filePublisher'
+2019-03-12 11:31:49,321 INFO [geoserver.wps] - Found 6 bindable processes in GeoServer specific processes
+2019-03-12 11:31:49,974 INFO [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+2019-03-12 11:31:49,976 INFO [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+2019-03-12 11:31:49,979 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+2019-03-12 11:31:49,979 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+2019-03-12 11:31:49,980 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+2019-03-12 11:31:49,980 INFO [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+2019-03-12 11:31:49,980 INFO [geoserver.wps] - Found 17 bindable processes in Raster processes
+2019-03-12 11:31:49,990 INFO [geoserver.wps] - Found 31 bindable processes in Vector processes
+2019-03-12 11:31:50,007 INFO [geoserver.wps] - Found 48 bindable processes in Geometry processes
+2019-03-12 11:31:50,007 INFO [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+2019-03-12 11:31:51,487 INFO [geoserver.security] - Start reloading user/groups for service named default
+2019-03-12 11:31:51,489 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2019-03-12 11:31:51,682 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2019-03-12 11:31:51,683 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2019-03-12 11:31:51,689 INFO [geoserver.importer] - Enabling import store: memory
+2019-03-12 11:31:51,690 INFO [geoserver.importer] - Enabling import store: memory
+2019-03-12 11:32:23,732 WARN [geoserver.security] - Strong cryptography is NOT available
+Download and installation the of unlimted length policy files is recommended
+2019-03-12 11:32:44,200 ERROR [web.demo] - Failed to guess native grid
+java.lang.NullPointerException
+	at org.geoserver.catalog.impl.CatalogImpl.getResourceByName(CatalogImpl.java:505)
+	at org.geoserver.catalog.impl.CatalogImpl.getCoverageByName(CatalogImpl.java:610)
+	at org.geoserver.security.SecureCatalogImpl.getCoverageByName(SecureCatalogImpl.java:160)
+	at org.geoserver.catalog.impl.AbstractFilteredCatalog.getCoverageByName(AbstractFilteredCatalog.java:76)
+	at org.geoserver.catalog.impl.AbstractCatalogDecorator.getCoverageByName(AbstractCatalogDecorator.java:324)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilderPanel.guessGridLimits(WCSRequestBuilderPanel.java:419)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilderPanel.getCoverageRequest(WCSRequestBuilderPanel.java:404)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder.getRequestXML(WCSRequestBuilder.java:139)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder$3.onSubmit(WCSRequestBuilder.java:92)
+	at org.apache.wicket.ajax.markup.html.form.AjaxSubmitLink$1.onSubmit(AjaxSubmitLink.java:111)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior$AjaxFormSubmitter.onSubmit(AjaxFormSubmitBehavior.java:215)
+	at org.apache.wicket.markup.html.form.Form.delegateSubmit(Form.java:1309)
+	at org.apache.wicket.markup.html.form.Form.process(Form.java:976)
+	at org.apache.wicket.markup.html.form.Form.onFormSubmitted(Form.java:797)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior.onEvent(AjaxFormSubmitBehavior.java:171)
+	at org.apache.wicket.ajax.AjaxEventBehavior.respond(AjaxEventBehavior.java:155)
+	at org.apache.wicket.ajax.AbstractDefaultAjaxBehavior.onRequest(AbstractDefaultAjaxBehavior.java:601)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.wicket.RequestListenerInterface.internalInvoke(RequestListenerInterface.java:258)
+	at org.apache.wicket.RequestListenerInterface.invoke(RequestListenerInterface.java:241)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.invokeListener(ListenerInterfaceRequestHandler.java:248)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.respond(ListenerInterfaceRequestHandler.java:234)
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:895)
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:265)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:222)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:293)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:261)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:203)
+	at org.apache.wicket.protocol.http.WicketServlet.doPost(WicketServlet.java:159)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:157)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:174)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:26)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:69)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.flow.ControlFlowCallback.doFilter(ControlFlowCallback.java:263)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.wms.animate.AnimatorFilter.doFilter(AnimatorFilter.java:73)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at com.boundlessgeo.geoserver.AppAuthFilter.doFilter(AppAuthFilter.java:111)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:37)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:51)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.geoserver.security.filter.GeoServerUserNamePasswordAuthenticationFilter.doFilter(GeoServerUserNamePasswordAuthenticationFilter.java:112)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:157)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:90)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:79)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:46)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2019-03-12 11:32:44,239 ERROR [geoserver.web] - Error generating xml request
+javax.xml.transform.TransformerException: java.lang.NullPointerException
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:752)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:357)
+	at org.geotools.xml.transform.TransformerBase$Task.run(TransformerBase.java:284)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:119)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:101)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder.getRequestXML(WCSRequestBuilder.java:139)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder$3.onSubmit(WCSRequestBuilder.java:92)
+	at org.apache.wicket.ajax.markup.html.form.AjaxSubmitLink$1.onSubmit(AjaxSubmitLink.java:111)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior$AjaxFormSubmitter.onSubmit(AjaxFormSubmitBehavior.java:215)
+	at org.apache.wicket.markup.html.form.Form.delegateSubmit(Form.java:1309)
+	at org.apache.wicket.markup.html.form.Form.process(Form.java:976)
+	at org.apache.wicket.markup.html.form.Form.onFormSubmitted(Form.java:797)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior.onEvent(AjaxFormSubmitBehavior.java:171)
+	at org.apache.wicket.ajax.AjaxEventBehavior.respond(AjaxEventBehavior.java:155)
+	at org.apache.wicket.ajax.AbstractDefaultAjaxBehavior.onRequest(AbstractDefaultAjaxBehavior.java:601)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.wicket.RequestListenerInterface.internalInvoke(RequestListenerInterface.java:258)
+	at org.apache.wicket.RequestListenerInterface.invoke(RequestListenerInterface.java:241)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.invokeListener(ListenerInterfaceRequestHandler.java:248)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.respond(ListenerInterfaceRequestHandler.java:234)
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:895)
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:265)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:222)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:293)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:261)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:203)
+	at org.apache.wicket.protocol.http.WicketServlet.doPost(WicketServlet.java:159)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:157)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:174)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:26)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:69)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.flow.ControlFlowCallback.doFilter(ControlFlowCallback.java:263)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.wms.animate.AnimatorFilter.doFilter(AnimatorFilter.java:73)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at com.boundlessgeo.geoserver.AppAuthFilter.doFilter(AppAuthFilter.java:111)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:37)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:51)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.geoserver.security.filter.GeoServerUserNamePasswordAuthenticationFilter.doFilter(GeoServerUserNamePasswordAuthenticationFilter.java:112)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:157)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:90)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:79)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:46)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException
+	at org.geoserver.catalog.impl.CatalogImpl.getResourceByName(CatalogImpl.java:505)
+	at org.geoserver.catalog.impl.CatalogImpl.getCoverageByName(CatalogImpl.java:610)
+	at org.geoserver.security.SecureCatalogImpl.getCoverageByName(SecureCatalogImpl.java:160)
+	at org.geoserver.catalog.impl.AbstractFilteredCatalog.getCoverageByName(AbstractFilteredCatalog.java:76)
+	at org.geoserver.catalog.impl.AbstractCatalogDecorator.getCoverageByName(AbstractCatalogDecorator.java:324)
+	at org.geoserver.wcs.web.demo.WCS10GetCoverageTransformer$ExecuteRequestTranslator.encode(WCS10GetCoverageTransformer.java:86)
+	at org.geoserver.wcs.web.demo.WCS10GetCoverageTransformer$ExecuteRequestTranslator.encode(WCS10GetCoverageTransformer.java:61)
+	at org.geotools.xml.transform.TransformerBase$XMLReaderSupport.parse(TransformerBase.java:996)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:674)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:743)
+	... 126 more
+---------
+java.lang.NullPointerException
+	at org.geoserver.catalog.impl.CatalogImpl.getResourceByName(CatalogImpl.java:505)
+	at org.geoserver.catalog.impl.CatalogImpl.getCoverageByName(CatalogImpl.java:610)
+	at org.geoserver.security.SecureCatalogImpl.getCoverageByName(SecureCatalogImpl.java:160)
+	at org.geoserver.catalog.impl.AbstractFilteredCatalog.getCoverageByName(AbstractFilteredCatalog.java:76)
+	at org.geoserver.catalog.impl.AbstractCatalogDecorator.getCoverageByName(AbstractCatalogDecorator.java:324)
+	at org.geoserver.wcs.web.demo.WCS10GetCoverageTransformer$ExecuteRequestTranslator.encode(WCS10GetCoverageTransformer.java:86)
+	at org.geoserver.wcs.web.demo.WCS10GetCoverageTransformer$ExecuteRequestTranslator.encode(WCS10GetCoverageTransformer.java:61)
+	at org.geotools.xml.transform.TransformerBase$XMLReaderSupport.parse(TransformerBase.java:996)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:674)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:743)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:357)
+	at org.geotools.xml.transform.TransformerBase$Task.run(TransformerBase.java:284)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:119)
+	at org.geotools.xml.transform.TransformerBase.transform(TransformerBase.java:101)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder.getRequestXML(WCSRequestBuilder.java:139)
+	at org.geoserver.wcs.web.demo.WCSRequestBuilder$3.onSubmit(WCSRequestBuilder.java:92)
+	at org.apache.wicket.ajax.markup.html.form.AjaxSubmitLink$1.onSubmit(AjaxSubmitLink.java:111)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior$AjaxFormSubmitter.onSubmit(AjaxFormSubmitBehavior.java:215)
+	at org.apache.wicket.markup.html.form.Form.delegateSubmit(Form.java:1309)
+	at org.apache.wicket.markup.html.form.Form.process(Form.java:976)
+	at org.apache.wicket.markup.html.form.Form.onFormSubmitted(Form.java:797)
+	at org.apache.wicket.ajax.form.AjaxFormSubmitBehavior.onEvent(AjaxFormSubmitBehavior.java:171)
+	at org.apache.wicket.ajax.AjaxEventBehavior.respond(AjaxEventBehavior.java:155)
+	at org.apache.wicket.ajax.AbstractDefaultAjaxBehavior.onRequest(AbstractDefaultAjaxBehavior.java:601)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.wicket.RequestListenerInterface.internalInvoke(RequestListenerInterface.java:258)
+	at org.apache.wicket.RequestListenerInterface.invoke(RequestListenerInterface.java:241)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.invokeListener(ListenerInterfaceRequestHandler.java:248)
+	at org.apache.wicket.core.request.handler.ListenerInterfaceRequestHandler.respond(ListenerInterfaceRequestHandler.java:234)
+	at org.apache.wicket.request.cycle.RequestCycle$HandlerExecutor.respond(RequestCycle.java:895)
+	at org.apache.wicket.request.RequestHandlerStack.execute(RequestHandlerStack.java:64)
+	at org.apache.wicket.request.cycle.RequestCycle.execute(RequestCycle.java:265)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequest(RequestCycle.java:222)
+	at org.apache.wicket.request.cycle.RequestCycle.processRequestAndDetach(RequestCycle.java:293)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequestCycle(WicketFilter.java:261)
+	at org.apache.wicket.protocol.http.WicketFilter.processRequest(WicketFilter.java:203)
+	at org.apache.wicket.protocol.http.WicketServlet.doPost(WicketServlet.java:159)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:157)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:174)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:26)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:69)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.flow.ControlFlowCallback.doFilter(ControlFlowCallback.java:263)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.wms.animate.AnimatorFilter.doFilter(AnimatorFilter.java:73)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at com.boundlessgeo.geoserver.AppAuthFilter.doFilter(AppAuthFilter.java:111)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:37)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:51)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:205)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.geoserver.security.filter.GeoServerUserNamePasswordAuthenticationFilter.doFilter(GeoServerUserNamePasswordAuthenticationFilter.java:112)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter.doFilter(RememberMeAuthenticationFilter.java:157)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:90)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:79)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:46)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2019-03-12 11:32:44,371 ERROR [geoserver.ows] - 
+org.geoserver.platform.ServiceException: No service: ( ows )
+	at org.geoserver.ows.Dispatcher.service(Dispatcher.java:574)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:241)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:174)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:50)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:808)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:26)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:69)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.flow.ControlFlowCallback.doFilter(ControlFlowCallback.java:263)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.wms.animate.AnimatorFilter.doFilter(AnimatorFilter.java:73)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at com.boundlessgeo.geoserver.AppAuthFilter.doFilter(AppAuthFilter.java:111)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:66)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:37)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:316)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:114)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerAnonymousAuthenticationFilter.doFilter(GeoServerAnonymousAuthenticationFilter.java:51)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.geoserver.security.filter.GeoServerBasicAuthenticationFilter.doFilter(GeoServerBasicAuthenticationFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:70)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:91)
+	at org.geoserver.security.filter.GeoServerSecurityContextPersistenceFilter$1.doFilter(GeoServerSecurityContextPersistenceFilter.java:52)
+	at org.geoserver.security.filter.GeoServerCompositeFilter$NestedFilterChain.doFilter(GeoServerCompositeFilter.java:74)
+	at org.geoserver.security.filter.GeoServerCompositeFilter.doFilter(GeoServerCompositeFilter.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:330)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:213)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:176)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:90)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:79)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:46)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2019-03-12 11:34:13,568 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:34:13,569 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:34:42,347 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLRoleServicePanel [Component id = dummy]]
+2019-03-12 11:34:57,143 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:34:57,143 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:35:02,171 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLRoleServicePanel [Component id = dummy]]
+2019-03-12 11:35:06,175 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:35:06,175 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:35:07,395 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
+2019-03-12 11:35:07,395 WARN [wicket.Localizer] - Tried to retrieve a localized string for a component that has not yet been added to the page. This can sometimes lead to an invalid or no localized resource returned. Make sure you are not calling Component#getString() inside your Component's constructor. Offending component: [XMLUserGroupServicePanel [Component id = dummy]]
